@@ -1,0 +1,22 @@
+
+nav {
+  background-color: #F5D2E1;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+.nav-item, .nav-link {
+  color: #868684;
+  padding: 25px;
+  font-size: 1.75em;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+}
+.navbar-brand {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:hover:hover {
+  text-decoration: underline;
+}
