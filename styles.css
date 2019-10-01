@@ -1,21 +1,18 @@
 
-nav {
+.navbar{
   background-color: #F5D2E1;
   background-image: none;
   background-repeat: no-repeat;
+  padding: 20px;
 }
 .nav-item, .nav-link {
-  color: #868684;
-  padding: 25px;
+  color: #D1B781;
   font-size: 1.75em;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
 }
-.navbar-brand {
-  color: black;
-}
 a:hover {
-  color: black;
+  color: #9E8C64;
 }
 a:hover:hover {
   text-decoration: underline;
