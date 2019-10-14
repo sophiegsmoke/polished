@@ -28,8 +28,16 @@ a:hover:hover {
   color: #AE9273;
   border-width: medium;
   opacity: 0.8;
-  size: 300px;
+  width: 500px;
+  height: 250px;
+}
+.ourlogo {
+  width: 300px;
+
 }
 @media (max-height: 100px;) {
-  .carousel-caption
+  .carousel-caption {
+    height: 100px;
+    width: 300px;
+  }
 }
