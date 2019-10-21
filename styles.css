@@ -17,28 +17,30 @@ a:hover {
 a:hover:hover {
   text-decoration: underline;
 }
-.carousel-caption {
-  top: 35%;
-  margin: 0 auto;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 5px;
-  background-color: #F5D2E1; width: 300px; height: 150px;
-  border-color: #A98F71;
-  border-radius: 5px;
-  color: #AE9273;
-  border-width: medium;
-  opacity: 0.8;
-  width: 500px;
-  height: 250px;
-  padding: 100px 200px;
-}
-.ourlogo {
-  width: 300px;
+.carousel-caption .ourlogo{
+
 
 }
-@media (max-height: 100px;) {
+.carousel-caption .arrow {
+
+}
+}
+@media (max-width: 400px) {
   .carousel-caption {
-    height: 100px;
-    width: 300px;
+    display: none;
   }
+}
+
+#carousel .carousel-caption {
+    text-align: left;
+    vertical-align: middle;
+}
+
+#carousel .carousel-caption img {
+    max-width: 250px;
+    max-height: 80px;
+    position: sticky;
+}
+.icon-font-arrow {
+  opacity: 0.8;
 }
