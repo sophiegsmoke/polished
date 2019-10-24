@@ -27,15 +27,18 @@ bottom: auto;
 
 }
 
-@media (max-width: 400px) {
-  .carousel-caption img {
-    display: none;
-  }
-  .btn {
-    top: 30%;
+@media (max-width: 900px) {
+  .carousel-caption {
+    top: 10%;
     bottom: auto;
   }
-}
+  .ourlogo {
+    height: 150px;
+    width: 400px;
+  }
+
+
+
 
 
 .icon-font-arrow {
