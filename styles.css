@@ -78,8 +78,8 @@ bottom: auto;
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 .footer-image {
-  height: 150px;
-  width: 190px;
+  height: 100px;
+  width: 90px;
 }
 .col-sm-4{
   align: center;
@@ -138,5 +138,12 @@ bottom: auto;
   box-shadow: -6.67px 6.33px 10px -3.33px grey;
 }
 h3{
+<<<<<<< HEAD
   text-align: center;
+=======
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 75px;
+
+>>>>>>> d2a90ee446914a4258ad4044032daf928c0f5178
 }
