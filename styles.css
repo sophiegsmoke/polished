@@ -138,14 +138,13 @@ bottom: auto;
   box-shadow: -6.67px 6.33px 10px -3.33px grey;
 }
 h3{
-  text-align: center;
+  text-align: left;
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
-  font-size: 75px;
+  font-size: 60px;
 }
 #footer{
-  font-size: 30px;
-  color: black;
+  font-size: 27px;
 }
 h4{
   text-align: center;
