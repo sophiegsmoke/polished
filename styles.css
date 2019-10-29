@@ -138,10 +138,14 @@ bottom: auto;
   box-shadow: -6.67px 6.33px 10px -3.33px grey;
 }
 h3{
+<<<<<<< HEAD
+  text-align: center;
+=======
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
   font-size: 75px;
 
+>>>>>>> d2a90ee446914a4258ad4044032daf928c0f5178
 }
 #footer{
   font-size: 30px;
