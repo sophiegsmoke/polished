@@ -1,16 +1,27 @@
 
-.navbar{
+.navbar {
   background-color: white;
   background-image: none;
   background-repeat: no-repeat;
   padding: 20px;
   height: 100px;
 }
+.logo {
+  display: absolute;
+}
 .nav-item, .nav-link {
   color: #D1B781;
   font-size: 1.75em;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
+}
+body {
+  margin: 0;
+}
+a {
+  margin: 15px;
+  font-size: 100%;
+
 }
 a:hover {
   color: #9E8C64;
