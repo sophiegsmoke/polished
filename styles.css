@@ -7,11 +7,11 @@
   height: 100px;
 }
 .logo {
-  display: absolute;
+  display: absolute
 }
 .nav-item, .nav-link {
   color: #D1B781;
-  font-size: 1.75em;
+  font-size: 2em;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
 }
@@ -152,12 +152,7 @@ bottom: auto;
   left: 440px;
   box-shadow: -6.67px 6.33px 10px -3.33px grey;
 }
-<<<<<<< HEAD
-.carousel-item {
-  width: 291px;
-  left: 95px;
-  position: relative;
-=======
+
 h3{
   text-align: left;
   font-family: 'Amatic SC', cursive;
