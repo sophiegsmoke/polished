@@ -9,9 +9,9 @@
 .logo {
   display: absolute
 }
-.nav-item, .nav-link {
+.nav-item .nav-link {
   color: #D1B781;
-  font-size: 2em;
+  font-size: 2.1em;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
 }
@@ -19,9 +19,11 @@ body {
   margin: 0;
 }
 a {
-  margin: 15px;
+  margin: 9px;
   font-size: 100%;
-
+}
+ul {
+  background-color: white;
 }
 a:hover {
   color: #9E8C64;
