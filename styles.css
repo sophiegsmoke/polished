@@ -15,6 +15,12 @@
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
 }
+.navbar-nav {
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+  color: #D1B781;
+  font-size: 2.1em;
+}
 body {
   margin: 0;
 }
