@@ -165,12 +165,20 @@ h3{
   font-size: 27px;
 }
 h4{
+
+  color: #6C6250;
+  font-family: 'Shadows Into Light', cursive;
   text-align: center;
+}
+h6{
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  color: #494236;
 }
 .col-sm-4{
   text-align: center;
   font-size: 22px;
->>>>>>> e403f7b1bb843263121722da7272fe583ea25c53
+
 }
 .social-icons{
 
@@ -178,8 +186,11 @@ h4{
 #footer{
   font-size: 27px;
 }
-h4{
+h5{
   text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #494236;
+  font-size: 60px;
 }
 .col-sm-4{
   text-align: center;
