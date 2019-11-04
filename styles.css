@@ -179,7 +179,15 @@ h3{
   background-color: white;
 }
 h4{
+
+  color: #6C6250;
+  font-family: 'Shadows Into Light', cursive;
   text-align: center;
+}
+h6{
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  color: #494236;
 }
 .col-sm-4{
   text-align: center;
@@ -193,8 +201,11 @@ h4{
   font-size: 27px;
   background-color: white;
 }
-h4{
+h5{
   text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #494236;
+  font-size: 60px;
 }
 .col-sm-4{
   text-align: center;
