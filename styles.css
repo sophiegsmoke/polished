@@ -211,6 +211,7 @@ h5{
   text-align: center;
   font-size: 22px;
 }
+<<<<<<< HEAD
 .col-md-6 {
   position: inherit;
 
@@ -249,22 +250,13 @@ background-color: white;
   .bar span {
     display: none;
   }
+=======
+h7{
+  font-family: 'McLaren', cursive;
+>>>>>>> aa1583488be8f551c9265a1e51024f11a7545aa5
 }
-.header {
-  margin: 5%;
-  font-family: 'Amatic SC', cursive;
-
-
-}
-h1 {
-  font-size: 4.0em;
-  color: #6C6250;
-}
-.nails-body {
-  background-color:  #FFF2E3;
-}
-.footer {
-  background-color: white;
+.man-body{
+  background-color: #9EBD9E;
 }
 /* The sidebar menu */
 .sidenav {
