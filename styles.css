@@ -198,6 +198,16 @@ h6{
 
 }
 h4{
+=======
+#footer{
+  font-size: 27px;
+  background-color: white;
+}
+.foot {
+  background-color: white;
+}
+h5{
+>>>>>>> 75a231152c8e2ce06f0adc168f45a34bd1254a49
   text-align: center;
   font-family: 'Amatic SC', cursive;
   color: #494236;
@@ -211,7 +221,7 @@ h4{
   background: url("img/hairpage.PNG");
 }
 .man-body{
-  background-color: #9EBD9E;
+  background: url("img/camo.jfif");
 }
 /* The sidebar menu */
 .sidenav {
@@ -244,11 +254,4 @@ h4{
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
->>>>>>> 2451ee77a85810b58a7afe3c9463e996130975d9
 }
