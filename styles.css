@@ -197,15 +197,7 @@ h6{
 .social-icons{
 
 }
-<<<<<<< HEAD
 h4{
-=======
-#footer{
-  font-size: 27px;
-  background-color: white;
-}
-h5{
->>>>>>> 2451ee77a85810b58a7afe3c9463e996130975d9
   text-align: center;
   font-family: 'Amatic SC', cursive;
   color: #494236;
@@ -215,53 +207,8 @@ h5{
   text-align: center;
   font-size: 22px;
 }
-<<<<<<< HEAD
 .hair {
   background: url("img/hairpage.PNG");
-=======
-<<<<<<< HEAD
-.col-md-6 {
-  position: inherit;
-
-}
-.img-fluid {
-  z-index: -1;
-}
-.parent {
-  position: relative;
-  top: 0;
-  z-index: 2;
-
-}
-.image1 {
-  position: relative;
-  margin-top: -80px;
-  z-index: -1;
-}
-.text-box {
-position: relative;
-margin-top: -80px;
-z-index: -1;
-background-color: white;
-}
-@media (max-width: 700px) {
-
-
-  .bar {
-    margin-bottom: -5px;
-    width: 400px;
-    height: 75px;
-  }
-  .image1 {
-    display: none;
-  }
-  .bar span {
-    display: none;
-  }
-=======
-h7{
-  font-family: 'McLaren', cursive;
->>>>>>> aa1583488be8f551c9265a1e51024f11a7545aa5
 }
 .man-body{
   background-color: #9EBD9E;
