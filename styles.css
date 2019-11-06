@@ -161,6 +161,7 @@ h3{
 }
 #footer{
   font-size: 27px;
+  background-color: white;
 }
 h4{
   text-align: center;
@@ -168,17 +169,18 @@ h4{
 .col-sm-4{
   text-align: center;
   font-size: 22px;
->>>>>>> e403f7b1bb843263121722da7272fe583ea25c53
+
 }
 .social-icons{
 
 }
-#footer{
-  font-size: 27px;
-}
 h4{
   text-align: center;
 }
 .col-sm-4{
   text-align: center;
   font-size: 22px;
+}
+.hair {
+  background: url("img/hairpage.PNG");
+}
