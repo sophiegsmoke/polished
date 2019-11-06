@@ -201,6 +201,9 @@ h6{
   font-size: 27px;
   background-color: white;
 }
+.foot {
+  background-color: white;
+}
 h5{
   text-align: center;
   font-family: 'Amatic SC', cursive;
@@ -215,5 +218,5 @@ h7{
   font-family: 'McLaren', cursive;
 }
 .man-body{
-  background-color: #9EBD9E;
+  background: url("img/camo.jfif");
 }
