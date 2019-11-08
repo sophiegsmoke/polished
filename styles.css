@@ -148,11 +148,6 @@ h3{
   color: #6C6250;
   font-size: 60px;
 }
-=======
-
-
-
->>>>>>> 6b81eca1967ba230a44c9dcd65c68bb8e1c39032
 #footer{
   font-size: 27px;
   background-color: white;
@@ -172,25 +167,14 @@ h5{
   text-align: center;
   font-size: 22px;
 }
-
-h4{
-<<<<<<< HEAD
-=======
-}
-
 #footer{
   font-size: 27px;
   background-color: white;
->>>>>>> 6b81eca1967ba230a44c9dcd65c68bb8e1c39032
 }
 .footer {
   background-color: white;
 }
-<<<<<<< HEAD
-h5{
-=======
 h6{
->>>>>>> 6b81eca1967ba230a44c9dcd65c68bb8e1c39032
   text-align: center;
   font-family: 'Amatic SC', cursive;
   color: #494236;
@@ -200,19 +184,13 @@ h6{
   text-align: center;
   font-size: 22px;
 }
-<<<<<<< HEAD
-=======
-
 .hair {
   background: url("img/hairpage.PNG");
 }
-
-
 h7{
   font-family: 'McLaren', cursive;
 
 }
->>>>>>> 6b81eca1967ba230a44c9dcd65c68bb8e1c39032
 .man-body{
   background: url("img/camo.jfif");
 }
@@ -245,7 +223,6 @@ h7{
   margin-left: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
 }
-<<<<<<< HEAD
 .footer{
   background-color: white;
 }
@@ -261,12 +238,8 @@ h5{
 .productspage{
   text-align: center;
   align: center;
-=======
-
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-
->>>>>>> 6b81eca1967ba230a44c9dcd65c68bb8e1c39032
 }
