@@ -85,73 +85,7 @@ bottom: auto;
   width: 90px;
 }
 <<<<<<< HEAD
-.col-sm-4{
-  align: center;
-}
-.bar {
-  color: #FFF;
-  background-color: #F5D2E1;
-  padding: 11.67px;
-  width: 600px;
-  height: 100px;
-  margin: 16.67px auto 0;
-  font: 30px/40px 'Bree Serif', Courier, monospaced;
-  text-align: center;
-  position: relative;
-  text-transform: uppercase;
-  border: 0.66px transparent solid;
-  box-shadow: 0 3.33px 10px -3.33px gray;
-  top: 1%;
-  margin-bottom: 30%;
-}
-.bar span {
-  position: absolute;
-}
-.bar span:nth-child(1),.bar span:nth-child(3) {
-  border-style: solid;
-  border-width: 15px;
-  z-index: -0.5;
-  left: -20px;
-}
-.bar span:nth-child(1) {
-  border-color: grey grey transparent transparent;
-  top: 100px;
-  left: -1px;
-  z-index: -2;
-}
-.bar span:nth-child(3) {
-  border-color: grey transparent transparent grey ;
-  top: 100px;
-  left: 570px;
-  z-index: -2;
-}
-.bar span:nth-child(2), .bar span:nth-child(4) {
-  top: 69px;
-  border-style: solid;
-  border-width: 30px;
-  z-index: -7;
-}
-.bar span:nth-child(2) {
-  border-color: #F5D2E1 #F5D2E1 #F5D2E1 transparent;
-  left: -33px;
-  box-shadow: 20px 20px 30px -10px grey;
-}
-.bar span:nth-child(4) {
-  border-color: #F5D2E1 transparent #F5D2E1 #F5D2E1;
-  left: 570px;
-  left: 440px;
-  box-shadow: -6.67px 6.33px 10px -3.33px grey;
-}
-h3{
-  text-align: left;
-  font-family: 'Amatic SC', cursive;
-  color: #6C6250;
-  font-size: 60px;
-}
-#footer{
-  font-size: 27px;
-  background-color: white;
-}
+
 h4{
   color: #6C6250;
   font-family: 'Shadows Into Light', cursive;
@@ -195,37 +129,7 @@ h7{
   background: url("img/camo.jfif");
 }
 /* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: -1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 100px;
-}
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-.footer{
-  background-color: white;
-}
+
 h5{
   text-align: center;
   font-family: 'Amatic SC', cursive;
