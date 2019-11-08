@@ -42,10 +42,6 @@ opacity: 0.8;
 top: 30%;
 bottom: auto;
 }
-.carousel-caption img {
-
-}
-
 @media (max-width: 900px) {
   .carousel-caption {
     top: 10%;
@@ -56,20 +52,12 @@ bottom: auto;
     width: 400px;
   }
 }
-
-
 /* Dropdown Button */
 .btn {
   padding: 16px;
   font-size: 16px;
   border: none;
 }
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-
-}
-
 /* Dropdown Content (Hidden by Default) */
 .dropdown-menu {
   display: none;
@@ -79,7 +67,6 @@ bottom: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
   z-index: 1;
 }
-
 /* Links inside the dropdown */
 .dropdown-menu a {
   color: black;
@@ -87,13 +74,10 @@ bottom: auto;
   text-decoration: none;
   display: block;
 }
-
 /* Change color of dropdown links on hover */
 .dropdown-menu a:hover {background-color: #ddd;}
-
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-menu {display: block;}
-
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 .footer-image {
@@ -118,15 +102,10 @@ bottom: auto;
   box-shadow: 0 3.33px 10px -3.33px gray;
   top: 1%;
   margin-bottom: 30%;
-
-
 }
-
 .bar span {
   position: absolute;
-
 }
-
 .bar span:nth-child(1),.bar span:nth-child(3) {
   border-style: solid;
   border-width: 15px;
@@ -145,13 +124,11 @@ bottom: auto;
   left: 570px;
   z-index: -2;
 }
-
 .bar span:nth-child(2), .bar span:nth-child(4) {
   top: 69px;
   border-style: solid;
   border-width: 30px;
   z-index: -7;
-
 }
 .bar span:nth-child(2) {
   border-color: #F5D2E1 #F5D2E1 #F5D2E1 transparent;
@@ -161,13 +138,9 @@ bottom: auto;
 .bar span:nth-child(4) {
   border-color: #F5D2E1 transparent #F5D2E1 #F5D2E1;
   left: 570px;
-  right:
-
-
   left: 440px;
   box-shadow: -6.67px 6.33px 10px -3.33px grey;
 }
-
 h3{
   text-align: left;
   font-family: 'Amatic SC', cursive;
@@ -179,7 +152,6 @@ h3{
   background-color: white;
 }
 h4{
-
   color: #6C6250;
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
@@ -192,22 +164,13 @@ h6{
 .col-sm-4{
   text-align: center;
   font-size: 22px;
-
-}
-.social-icons{
-
 }
 h4{
-=======
-#footer{
-  font-size: 27px;
-  background-color: white;
 }
-.foot {
+.footer {
   background-color: white;
 }
 h5{
->>>>>>> 75a231152c8e2ce06f0adc168f45a34bd1254a49
   text-align: center;
   font-family: 'Amatic SC', cursive;
   color: #494236;
@@ -216,9 +179,6 @@ h5{
 .col-sm-4{
   text-align: center;
   font-size: 22px;
-}
-.hair {
-  background: url("img/hairpage.PNG");
 }
 .man-body{
   background: url("img/camo.jfif");
@@ -235,7 +195,6 @@ h5{
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 100px;
 }
-
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
@@ -244,12 +203,10 @@ h5{
   color: #818181;
   display: block;
 }
-
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
-
 /* Style page content */
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
@@ -257,4 +214,17 @@ h5{
 }
 .footer{
   background-color: white;
+}
+h5{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #494236;
+  font-size: 60px;
+}
+  .hair{
+    background: url("img/hairpage1.png");
+  }
+.productspage{
+  text-align: center;
+  align: center;
 }
