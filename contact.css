@@ -22,7 +22,7 @@
 }
 body {
   margin: 0;
-  background-color: lightgrey;
+  background-color: #EDEAA6;
 }
 h3{
   text-align: left;
@@ -47,9 +47,13 @@ h6{
     color: #6C6250;
     font-size: 45px;
   }
+  comments{
+    height: 30px;
+    weight:50px;
+  }
   #footer{
     font-size: 27px;
-    background-color: white;
+    background-color: #EDEAA6;
   }
   .foot {
     background-color: white;

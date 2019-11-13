@@ -49,10 +49,14 @@ h6{
   }
   h7{
     font-family: 'McLaren', cursive;
-
+}
+footer{
+  background-color: white;
+}
 #footer{
   font-size: 27px;
   background-color: white;
 }
 .foot {
   background-color: white;
+}
