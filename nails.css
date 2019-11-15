@@ -36,6 +36,10 @@ a:hover {
 a:hover:hover {
   text-decoration: underline;
 }
+.header {
+  padding-left: 12%;
+
+}
 .col-sm-4{
   align: center;
 }
@@ -43,7 +47,7 @@ a:hover:hover {
   color: #FFF;
   background-color: #F5D2E1;
   padding: 11.67px;
-  width: 85%;
+  width: 75%;
   height: 70px;
   margin: 16.67px auto 0;
   font: 30px/40px 'Bree Serif', Courier, monospaced;
@@ -133,7 +137,7 @@ h3{
   margin-top: -80px;
   z-index: -2;
   padding-bottom: 20%;
-  width: 130%;
+  width: 100%;
 }
 .text-box {
 position: relative;
@@ -143,16 +147,20 @@ background-color: lightgray;
 }
 @media (max-width: 700px) {
   .bar {
+    height: 60px;
 
+}
+p {
+  font-size: 10px;
+  margin-top: 10%;
 }
 .image1 {
   display: none;
 }
-
-
 }
 .image1 {
   max-width: 100%;
+
   height: auto;
 }
 
@@ -198,4 +206,19 @@ h6 {
   padding-top: 200px;
   background-color: white;
   z-index: 2;
+}
+
+.menu-items {
+  position: absolute;
+  font-size: 60%;
+  background-color: white;
+  color: black;
+  height: 750px;
+  z-index: -1;
+  width: 87%;
+  margin-left: 4%;
+  margin-top: -65px;
+  padding: 7.5%;
+  flex: auto;
+
 }
