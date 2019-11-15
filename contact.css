@@ -22,7 +22,7 @@
 }
 body {
   margin: 0;
-  background-color: #EDEAA6;
+  background-color: #FAE3C4;
 }
 h3{
   text-align: left;
@@ -32,7 +32,7 @@ h3{
 }
 h4{
   color: #6C6250;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Source Serif Pro', serif
   text-align: center;
 }
 h5{
@@ -47,13 +47,21 @@ h6{
     color: #6C6250;
     font-size: 45px;
   }
-  comments{
-    height: 30px;
-    weight:50px;
-  }
+.comments{
+  text-align: center;
+
+}
+.SUBMIT-button{
+  border: none;
+  font: 20px 'Bree Serif', Courier, monospaced;
+}
   #footer{
     font-size: 27px;
-    background-color: #EDEAA6;
+    background-color: white;
   }
   .foot {
     background-color: white;
+  }
+  .footer{
+    background-color: white;
+  }
