@@ -150,10 +150,7 @@ background-color: lightgray;
     height: 60px;
 
 }
-p {
-  font-size: 10px;
-  margin-top: 10%;
-}
+
 .image1 {
   display: none;
 }
@@ -208,17 +205,27 @@ h6 {
   z-index: 2;
 }
 
-.menu-items {
+.dropdown-menu {
   position: absolute;
   font-size: 60%;
   background-color: white;
   color: black;
   height: 750px;
-  z-index: -1;
+  z-index: 1;
   width: 87%;
   margin-left: 4%;
   margin-top: -65px;
-  padding: 7.5%;
+  padding-top:7.5%;
   flex: auto;
+}
+p {
+  font-size: 10px;
+  line-height: 80%;
+}
+.btn {
+  opacity: 1;
+}
+.row {
+  line-height: 20px;
 
 }
