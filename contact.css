@@ -22,7 +22,7 @@
 }
 body {
   margin: 0;
-  background-color: #FFEDD6;
+  background-color: #FFF6D3;
 }
 h3{
   text-align: left;
@@ -32,7 +32,7 @@ h3{
 }
 h4{
   color: #6C6250;
-  font-family: 'Source Serif Pro', serif
+  font-family: 'Solway', serif;
   text-align: center;
 }
 h5{
@@ -46,10 +46,13 @@ h6{
     font-family: 'Amatic SC', cursive;
     color: #6C6250;
     font-size: 45px;
+    border: double;
   }
 .comments{
   text-align: center;
 border: none;
+padding: 25px;
+
 }
 .SUBMIT-button{
   border: none;
@@ -68,4 +71,10 @@ border: none;
   }
   .footer{
     background-color: white;
+  }
+  a:hover {
+    color: #9E8C64;
+  }
+  a:hover:hover {
+    text-decoration: underline;
   }

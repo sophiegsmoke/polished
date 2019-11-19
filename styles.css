@@ -42,16 +42,7 @@ opacity: 0.8;
 top: 30%;
 bottom: auto;
 }
-@media (max-width: 900px) {
-  .carousel-caption {
-    top: 10%;
-    bottom: auto;
-  }
-  .ourlogo {
-    height: 150px;
-    width: 400px;
-  }
-}
+
 /* Dropdown Button */
 .btn {
   padding: 16px;
@@ -148,6 +139,17 @@ h5{
   text-align: center;
   align: center;
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+}
+@media (max-width: 900px) {
+  .carousel-caption {
+    top: 10%;
+    bottom: auto;
+  }
+  .ourlogo {
+    height: 150px;
+    width: 400px;
+  }
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}

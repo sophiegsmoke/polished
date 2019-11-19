@@ -22,7 +22,7 @@
 }
 body {
   margin: 0;
-  background-color: lightgrey;
+  background-color: #DFDEDB;
 }
 h3{
   text-align: left;
@@ -49,6 +49,18 @@ h6{
   }
   h7{
     font-family: 'McLaren', cursive;
+}
+h8{
+font-family: 'Luckiest Guy', cursive;
+font-size: 30px;
+border: 4px dotted ;
+border-width: 5px;
+}
+a:hover {
+  color: #9E8C64;
+}
+a:hover:hover {
+  text-decoration: underline;
 }
 footer{
   background-color: white;
