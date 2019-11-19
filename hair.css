@@ -29,6 +29,7 @@ a:hover:hover {
 h3{
   text-align: left;
   font-family: 'Amatic SC', cursive;
+    color: #6C6250;
 
   font-size: 60px;
 }
@@ -55,7 +56,4 @@ h1{
 }
 .hair1{
   border: 200px white;
-}
-h3{
-  color: #6C6250;
 }
