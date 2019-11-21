@@ -229,3 +229,32 @@ p {
   line-height: 20px;
 
 }
+.btn {
+  margin-top: -15px;
+  font-size: 16px;
+  border: none;
+
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  width: 10%;
+  height: 500%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  z-index: 2;
+  flex: auto;
+
+}
+/* Links inside the dropdown */
+.dropdown-menu a {
+  color: black;
+  display: block;
+  z-index: 2;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .btn {color: black;}
