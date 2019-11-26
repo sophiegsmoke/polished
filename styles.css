@@ -79,83 +79,22 @@ bottom: auto;
   width: 90px;
 }
 
-h4{
-  color: #6C6250;
-  font-family: 'Shadows Into Light', cursive;
-  text-align: center;
-}
-h5{
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-  color: #494236;
-  font-size: 60px;
-}
-.col-sm-4{
-  text-align: center;
-  font-size: 22px;
-}
-
-
-
-}
-
-
 #footer{
   font-size: 27px;
   background-color: white;
   z-index: -2;
 }
-.footer {
+.footer{
   background-color: white;
-  z-index: -2;
 }
-h6{
-  text-align: center;
+.social-icons{
+  font-size: 27px;
+  background-color: white;
+}
+h3{
+  text-align: left;
   font-family: 'Amatic SC', cursive;
-  color: #494236;
-  font-size: 60px;
-}
-.col-sm-4{
-  text-align: center;
-  font-size: 22px;
-}
-.hair {
-  background: url("img/hairpage.PNG");
-}
-h7{
-  font-family: 'McLaren', cursive;
+    color: #6C6250;
 
-}
-.man-body{
-  background: url("img/camo.jfif");
-}
-/* The sidebar menu */
-
-h5{
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-  color: #494236;
   font-size: 60px;
-}
-  .hair{
-    background: url("img/hairpage1.png");
-  }
-.productspage{
-  text-align: center;
-  align: center;
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-}
-@media (max-width: 900px) {
-  .carousel-caption {
-    top: 10%;
-    bottom: auto;
-  }
-  .ourlogo {
-    height: 150px;
-    width: 400px;
-  }
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
