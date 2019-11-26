@@ -46,9 +46,10 @@ bottom: auto;
 
 /* Dropdown Button */
 .btn {
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
   border: none;
+  margin-top: -15px;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-menu {
@@ -57,7 +58,7 @@ bottom: auto;
   background-color: pink;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
-  z-index: 1;
+  z-index: 3;
 }
 /* Links inside the dropdown */
 .dropdown-menu a {
@@ -81,6 +82,7 @@ bottom: auto;
 #footer{
   font-size: 27px;
   background-color: white;
+  z-index: -2;
 }
 .footer{
   background-color: white;
