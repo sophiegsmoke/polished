@@ -22,6 +22,7 @@
 }
 body {
   padding-right: 20px;
+  background-color: #F1ECDF;
 }
 a {
   margin: 9px;
@@ -45,7 +46,7 @@ a:hover:hover {
 }
 .bar {
   color: black;
-  background-color: #F5D2E1;
+  background-color: #F1DFED;
   padding: 11.67px;
   width: 75%;
   height: 70px;
@@ -175,7 +176,7 @@ background-color: lightgray;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 100px;
   color: black;
-  background-color: #F5D2E1;
+  background-color: #F1DFED;
 
 }
 /* The navigation menu links */
@@ -185,6 +186,13 @@ background-color: lightgray;
   font-size: 25px;
   color: #818181;
   display: block;
+}
+.sidenav li {
+  font-family: 'McLaren', cursive;
+}
+.sidenav h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -237,6 +245,7 @@ p {
   margin-top: -15px;
   font-size: 16px;
   border: none;
+  color: black
 
 }
 /* Dropdown Content (Hidden by Default) */
@@ -245,7 +254,7 @@ p {
   position: absolute;
   background-color: white;
   width: 900px;
-  height: 700%;
+  height: 600%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
   z-index: 1;
   flex: auto;
@@ -255,8 +264,24 @@ p {
   margin:0 -3%;
   border-width: thin;
   border-radius: 0;
-
-
+  left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
+  background-color: white;
+}
+.dropdown-menu h7 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 100%;
+}
+.dropdown-menu p {
+  font-family: 'McLaren', cursive;
+  font-size: 60%;
+}
+.col-lg-12 {
+  font-family: 'Sacramento', cursive;
+  text-transform: lowercase;
+  font-size: 45px;
 }
 .dropdown {
   position: relative;
@@ -268,7 +293,7 @@ a {
   z-index: -2;
 }
 .tiny-text {
-  font-size: 70%;
+  font-size: 40%;
 }
 /* Links inside the dropdown */
 .dropdown-menu a {
@@ -281,3 +306,22 @@ a {
 .dropdown:hover .dropdown-menu {display: block;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .btn {color: black;}
+
+#footer{
+  font-size: 27px;
+  background-color: white;
+}
+.footer{
+  background-color: white;
+}
+.social-icons{
+  font-size: 27px;
+  background-color: white;
+}
+h3{
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+    color: #6C6250;
+
+  font-size: 60px;
+}
