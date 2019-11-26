@@ -33,6 +33,9 @@ h3{
 
   font-size: 60px;
 }
+.hair{
+  color: F5D2E1;S
+}
 #footer{
   font-size: 27px;
   background-color: white;
@@ -45,7 +48,7 @@ h3{
   background-color: white;
 }
 .hair{
-  background: url("img/hairpage3.png");
+  background-color: F5D2E1;S
 }
 .hairprices{
   font-family: 'Amatic SC', cursive;
