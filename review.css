@@ -31,14 +31,20 @@ a:hover {
 a:hover:hover {
   text-decoration: underline;
 }
-
+body {
+  background-color: #EFD6B6;
+}
 h3 {
   text-align: left;
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
   font-size: 60px;
 }
-
+h4 {
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 50px;
+}
 h9 {
 font-family: 'Cookie', cursive;
   text-align: center;
@@ -58,13 +64,6 @@ font-size: 50px;
   font-size: 27px;
   background-color: white;
 }
-
-h4 {
-  font-family: 'Amatic SC', cursive;
-  color: #6C6250;
-  font-size: 50px;
-}
-
-body {
-  background-color: #E7CEAF;
+h10 {
+ font-size: 25px;
 }
