@@ -174,7 +174,7 @@ background-color: lightgray;
   top: 0; /* Stay at the top */
   left: 0;
   background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: visible; /* Disable horizontal scroll */
   padding-top: 100px;
   color: black;
   background-color: #F1DFED;
@@ -190,10 +190,12 @@ background-color: lightgray;
 }
 .sidenav li {
   font-family: 'McLaren', cursive;
+  position: sticky;
 }
 .sidenav h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 50px;
+  position: sticky;
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -203,6 +205,10 @@ background-color: lightgray;
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
+  margin-right: 80px;
+}
+.header {
+  text-align: center;
 }
 .footer{
   background-color: white;
@@ -223,7 +229,6 @@ h6 {
   background-color: white;
   color: black;
   height: 500px;
-  z-index: 1;
   width: 200%;
   margin-left: 4%;
   margin-top: -65px;
@@ -268,15 +273,15 @@ p {
   right: auto !important;
   text-align: center !important;
   transform: translate(-50%, 0) !important;
-  background-color: white;
   word-wrap:break-word;
   overflow: inherit;
-  float: right;
+  float: left;
+  list-style: none;
 }
 .dropdown-menu h7 {
   font-family: 'Amatic SC', cursive;
   font-size: 100%;
-  z-index: 9999999;
+  z-index: 100;
 }
 .dropdown-menu p {
   font-family: 'McLaren', cursive;
@@ -295,9 +300,7 @@ p {
 a {
   position:relative;
 }
-.row {
-  z-index: -2;
-}
+
 .tiny-text {
   font-size: 40%;
 }
@@ -308,12 +311,17 @@ a {
   z-index: 2;
   position: relative;
 }
-.container {
+.container-manicures {
   position: static;
   background-color: white;
+  display: block;
+  position: absolute;
+  z-index: 150;
+  overflow: visible;
 }
+
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-menu {display: inline-block; flex: auto; z-index: 9999999;}
+.dropdown:hover .dropdown-menu {display: inline-block; flex: auto; z-index: 9999999; float: none;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .btn {color: black;}
 
