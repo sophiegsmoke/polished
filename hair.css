@@ -1,3 +1,8 @@
+
+.hair{
+  background-color: #F5D2E1;
+}
+/* Backgroubd color of the hair page */
 .navbar {
   background-color: white;
   background-image: none;
@@ -5,37 +10,39 @@
   padding: 20px;
   height: 100px;
 }
+/*Styles the actual navbar*/
 .logo {
   display: absolute
 }
+/*styles the lgo in the navbar*/
 .nav-item .nav-link {
   color: #D1B781;
   font-size: 2.1em;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
 }
+/*styles the tabs for the pages in the navbar*/
 .navbar-nav {
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
   color: #D1B781;
   font-size: 2.1em;
 }
+/* also styles the navbar tabs for the pages*/
 a:hover {
   color: #9E8C64;
 }
 a:hover:hover {
   text-decoration: underline;
 }
+/*styles the line when you hover over the tab*/
 h3{
   text-align: left;
   font-family: 'Amatic SC', cursive;
-    color: #6C6250;
-
+  color: #6C6250;
   font-size: 60px;
 }
-.hair{
-  color: F5D2E1;S
-}
+/*styles the headings in the footer for the columns*/
 #footer{
   font-size: 27px;
   background-color: white;
@@ -43,20 +50,22 @@ h3{
 .footer{
   background-color: white;
 }
+/*styles the background of the footer*/
 .social-icons{
   font-size: 27px;
   background-color: white;
 }
-.hair{
-  background-color: F5D2E1;S
-}
+/*stlyes the link to facebook in the footer*/
 .hairprices{
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
 }
+/*styles the content to the same color and font*/
 h1{
   font-size: 55px;
 }
+/*styles the headings in the content*/
+
 .hair1{
   border: 200px white;
 }
