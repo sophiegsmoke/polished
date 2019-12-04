@@ -41,9 +41,17 @@ a:hover:hover {
 .header {
   padding-left: 12%;
 
+
+}
+h1 {
+  font-family: 'Ibarra Real Nova', serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-left: 15%;
 }
 .col-sm-4{
   align: center;
+  width: 400px;
 }
 .bar {
   color: black;
@@ -60,7 +68,7 @@ a:hover:hover {
   box-shadow: 0 3.33px 10px -3.33px gray;
   top: 1%;
   margin-bottom: 30%;
-  z-index: -0.1;
+  z-index: -0.1!important;
   margin-bottom: 35%;
 }
 .bar span {
@@ -145,16 +153,56 @@ h3{
 position: relative;
 margin-top: -80px;
 z-index: -2;
-background-color: lightgray;
-}
-@media (max-width: 700px) {
-  .bar {
-    height: 60px;
 
 }
+@media (max-width: 700px) {
 
 .image1 {
   display: none;
+}
+.container-manicures {
+  width: 400px;
+  margin-left: 65px;
+
+}
+.dropdown-menu a{
+  width: 130;
+}
+.bar span {
+  display: none;
+}
+.bar {
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+  margin-left: 20px;
+}
+.btn {
+  padding-left: 25px;
+}
+.navbar {
+  height: 60px;
+}
+img {
+  height: 50px;
+  width: 130px;
+}
+h1 {
+  font-size: 35px;
+}
+.col-lg-12{
+  font-size: 20px;
+}
+}
+@media (max-width: 500px) {
+
+.dropdown-menu a{
+  width: 150px;
+
+}
+.container-manicures {
+  width: 165px;
+  margin-left: 200px;
 }
 }
 .image1 {
@@ -178,6 +226,7 @@ background-color: lightgray;
   padding-top: 100px;
   color: black;
   background-color: #F1DFED;
+  flex: auto;
 
 }
 /* The navigation menu links */
@@ -193,8 +242,8 @@ background-color: lightgray;
   position: sticky;
 }
 .sidenav h2 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 40px;
   position: sticky;
 }
 /* When you mouse over the navigation links, change their color */
@@ -209,6 +258,7 @@ background-color: lightgray;
 }
 .header {
   text-align: center;
+  margin-right: 120px;
 }
 .footer{
   background-color: white;
@@ -219,14 +269,13 @@ background-color: lightgray;
 h6 {
   position: absolute;
   padding-top: 200px;
-  background-color: white;
+
   z-index: 2;
 }
 
 .dropdown-menu {
   position: absolute;
   font-size: 60%;
-  background-color: white;
   color: black;
   height: 500px;
   width: 200%;
@@ -248,10 +297,12 @@ p {
 
 }
 .btn {
-  margin-top: -15px;
+  margin-top: -14px;
   font-size: 16px;
   border: none;
-  color: black
+  color: black;
+  text-align: center;
+
 
 }
 /* Dropdown Content (Hidden by Default) */
@@ -267,7 +318,6 @@ p {
   padding-top: 2px;
   font-size: 70%;
   margin:0 -3%;
-  border-width: thin;
   border-radius: 0;
   left: 50% !important;
   right: auto !important;
@@ -277,24 +327,28 @@ p {
   overflow: inherit;
   float: left;
   list-style: none;
+  background-color: transparent;
+  border: none;
 }
 .dropdown-menu h7 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 100%;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 70%;
   z-index: 100;
 }
 .dropdown-menu p {
   font-family: 'McLaren', cursive;
-  font-size: 60%;
+  font-size: 50%;
+  line-height: 20px;
   word-wrap: break-word;
   z-index: 9999999;
 
 
 }
 .col-lg-12 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Amatic SC', cursive;
   text-transform: lowercase;
-  font-size: 45px;
+  font-size: 35px;
+  letter-spacing: 3px;
 }
 
 a {
@@ -308,7 +362,7 @@ a {
 .dropdown-menu a {
   color: black;
   display: block;
-  z-index: 2;
+  z-index: 50!important;
   position: relative;
 }
 .container-manicures {
@@ -316,15 +370,14 @@ a {
   background-color: white;
   display: block;
   position: absolute;
-  z-index: 150;
-  overflow: visible;
+  z-index: 50!important;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-menu {display: inline-block; flex: auto; z-index: 9999999; float: none;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .btn {color: black;}
-
+.dropdown:hover .container-manicures .dropdown-menu a {z-index: 60;}
 #footer{
   font-size: 27px;
   background-color: white;
