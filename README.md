@@ -19,3 +19,7 @@ check to see if you have good enough content
 does it look like the website is real
 take the goofy stuff out
 proof read , check content and spelling 
+
+
+1. Somehow, by Dec. 13th, you will have to consolidate all of your stylesheets into the styles.css file, add comments and organize the file
+2. Looks like several fonts throughout the website. I think you need to settle on 2 of them. I guess Mancave could look a bit different if you like
