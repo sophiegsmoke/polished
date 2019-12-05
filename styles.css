@@ -1,11 +1,9 @@
-
 .navbar {
   background-color: white;
   background-image: none;
   background-repeat: no-repeat;
   padding: 20px;
   height: 100px;
-  position: relative;
 }
 nav {
   position: absolute;
@@ -15,9 +13,11 @@ nav {
   position: relative;
   z-index: 1;
 }
+
 .logo {
   display: absolute
 }
+
 .nav-item .nav-link {
   color: #D1B781;
   font-size: 2.1em;
@@ -25,6 +25,7 @@ nav {
   letter-spacing: 3px;
   position: absolute;
 }
+
 .navbar-nav {
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
@@ -44,21 +45,24 @@ a {
   font-size: 100%;
   z-index: 1;
 }
+
 ul {
   background-color: white;
 }
+
 a:hover {
   color: #9E8C64;
 }
+
 a:hover:hover {
   text-decoration: underline;
 }
 /*index page tags*/
 .carousel-caption {
-opacity: 0.8;
-top: 30%;
-bottom: auto;
-z-index: 3;
+  opacity: 0.8;
+  top: 30%;
+  bottom: auto;
+  z-index: 3;
 }
 .d-block {
   z-index: -3;
@@ -87,22 +91,23 @@ z-index: 3;
   width: 200%;
   margin-left: 4%;
   margin-top: -65px;
-  padding-top:7.5%;
+  padding-top: 7.5%;
   flex: auto;
 }
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-menu-index {
   display: none;
   position: absolute;
   width: 500px;
   height: 600%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
   z-index: 9999999;
   flex: initial;
   margin-top: -15px;
   padding-top: 2px;
   font-size: 70%;
-  margin:0 -3%;
+  margin: 0 -3%;
   border-width: thin;
   border-radius: 0;
   left: 50% !important;
@@ -110,7 +115,7 @@ z-index: 3;
   text-align: center !important;
   transform: translate(-50%, 0) !important;
   background-color: white;
-  word-wrap:break-word;
+  word-wrap: break-word;
   overflow: inherit;
   float: right;
 }
@@ -121,6 +126,7 @@ z-index: 3;
   position: relative;
   overflow: auto !important;
 }
+
 /* Change color of dropdown links on hover */
 .dropdown-menu-index a:hover {background-color: #ddd; z-index: 3;}
 /* Show the dropdown menu on hover */
@@ -493,20 +499,21 @@ h1 {
   font-size: 27px;
   background-color: white;
   position: absolute;
-
 }
-.footer{
+
+.footer {
   background-color: white;
 }
-.social-icons{
+
+.social-icons {
   font-size: 27px;
   background-color: white;
 }
-h3{
+
+h3 {
   text-align: left;
   font-family: 'Amatic SC', cursive;
-    color: #6C6250;
-
+  color: #6C6250;
   font-size: 60px;
 }
 /*close footer tags*/
