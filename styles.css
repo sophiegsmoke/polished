@@ -587,6 +587,15 @@ h4 {
 h10 {
   font-size: 25px;
 }
+.tf-store{
+width: 350px;
+margin: 6%;
+margin-left: 20%;
+}
+.dt-store{
+  margin: 6%;
+  margin-left: 17%;
+}
 /*end of review tags*/
 /*media tags*/
 @media (max-width: 1500px; ) {
