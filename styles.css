@@ -8,7 +8,7 @@
 
 nav {
   position: absolute;
-  z-index: 3;
+  z-index: 200;
 }
 
 .main {
@@ -65,7 +65,7 @@ a:hover:hover {
 /*index page tags*/
 .carousel-caption {
   opacity: 0.8;
-  top: 30%;
+  top: 25%;
   bottom: auto;
   z-index: 3;
 }
@@ -80,7 +80,7 @@ a:hover:hover {
 .btn-index {
   padding: 10px;
   font-size: 16px;
-  border: none;
+  border: none!important;
   margin-top: -15px;
 }
 
@@ -102,7 +102,6 @@ a:hover:hover {
   padding-top: 7.5%;
   flex: auto;
 }
-
 /* Dropdown Content (Hidden by Default) */
 .dropdown-menu-index {
   display: none;
@@ -116,7 +115,6 @@ a:hover:hover {
   padding-top: 2px;
   font-size: 70%;
   margin: 0 -3%;
-  border-width: thin;
   border-radius: 0;
   left: 50% !important;
   right: auto !important;
@@ -126,6 +124,13 @@ a:hover:hover {
   word-wrap: break-word;
   overflow: inherit;
   float: right;
+  font-size: 60%;
+  color: black;
+  width: 200%;
+  margin-left: 4%;
+  margin-top: -65px;
+  padding-top: 7.5%;
+  flex: auto;
 }
 
 .dropdown-menu-index a {
@@ -384,7 +389,7 @@ p {
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-menu {
+.dropdown-menu-nails {
   display: none;
   position: absolute;
   width: 500px;
@@ -448,7 +453,7 @@ a {
 }
 
 /* Links inside the dropdown */
-.dropdown-menu a {
+.dropdown-menu-nails a {
   color: black;
   display: block;
   z-index: 50 !important;
@@ -684,7 +689,9 @@ h10 {
   background-color: white;
   position: absolute;
 }
-
+footer {
+  z-index: 1;
+}
 .footer {
   background-color: white;
 }
