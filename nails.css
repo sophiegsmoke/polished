@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   padding: 20px;
   height: 100px;
+  position: relative;
 }
 
 .logo {
@@ -15,6 +16,7 @@
   font-size: 2.1em;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
+  position: relative;
 }
 
 .navbar-nav {
@@ -22,6 +24,7 @@
   letter-spacing: 3px;
   color: #D1B781;
   font-size: 2.1em;
+  position: relative;
 }
 
 body {
@@ -32,6 +35,7 @@ body {
 a {
   margin: 9px;
   font-size: 100%;
+  position: relative;
 }
 
 ul {
@@ -52,6 +56,7 @@ a:hover:hover {
 
 .col-sm-4 {
   align: center;
+  width: 400px;
 }
 
 .bar {
@@ -69,7 +74,7 @@ a:hover:hover {
   box-shadow: 0 3.33px 10px -3.33px gray;
   top: 1%;
   margin-bottom: 30%;
-  z-index: -0.1;
+  z-index: -0.1!important;
   margin-bottom: 35%;
 }
 
@@ -179,6 +184,9 @@ h3 {
     display: none;
   }
 }
+.container-manicures {
+  width: 400px;
+  margin-left: 65px;
 
 .image1 {
   max-width: 100%;
@@ -225,8 +233,8 @@ h3 {
 }
 
 .sidenav h2 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 40px;
   position: sticky;
 }
 
@@ -245,6 +253,7 @@ h3 {
 
 .header {
   text-align: center;
+  margin-right: 120px;
 }
 
 .footer {
@@ -258,14 +267,13 @@ h3 {
 h6 {
   position: absolute;
   padding-top: 200px;
-  background-color: white;
+
   z-index: 2;
 }
 
 .dropdown-menu {
   position: absolute;
   font-size: 60%;
-  background-color: white;
   color: black;
   height: 500px;
   width: 200%;
@@ -289,7 +297,7 @@ p {
 }
 
 .btn {
-  margin-top: -15px;
+  margin-top: -14px;
   font-size: 16px;
   border: none;
   color: black
@@ -318,31 +326,34 @@ p {
   overflow: inherit;
   float: left;
   list-style: none;
+  background-color: transparent;
+  border: none;
 }
 
 .dropdown-menu h7 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 100%;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 70%;
   z-index: 100;
 }
 
 .dropdown-menu p {
   font-family: 'McLaren', cursive;
-  font-size: 60%;
+  font-size: 50%;
+  line-height: 20px;
   word-wrap: break-word;
   z-index: 9999999;
 }
 
 .col-lg-12 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Amatic SC', cursive;
   text-transform: lowercase;
-  font-size: 45px;
+  font-size: 35px;
+  letter-spacing: 3px;
 }
 
 a {
   position: relative;
 }
-
 .tiny-text {
   font-size: 40%;
 }
@@ -351,7 +362,7 @@ a {
 .dropdown-menu a {
   color: black;
   display: block;
-  z-index: 2;
+  z-index: 50!important;
   position: relative;
 }
 
@@ -360,8 +371,10 @@ a {
   background-color: white;
   display: block;
   position: absolute;
-  z-index: 150;
+  z-index: 50!important;
   overflow: visible;
+  border-width: medium;
+  border-color: black;
 }
 
 /* Show the dropdown menu on hover */

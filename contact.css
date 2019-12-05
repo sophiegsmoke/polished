@@ -22,9 +22,11 @@
   letter-spacing: 3px;
   color: #D1B781;
   font-size: 2.1em;
-}
 
 body {
+
+.contact-body {
+>>>>>>> 0a3f35dbebde5b9605e14cdd250095ef9a707003
   margin: 0;
   background-color: #EFD6B6;
 }
@@ -44,9 +46,9 @@ h4 {
 
 h5 {
   text-align: center;
-  font-family: 'Amatic SC', cursive;
+font-family: 'Cookie', cursive;
   color: #494236;
-  font-size: 60px;
+  font-size: 75px;
 }
 
 h6 {
