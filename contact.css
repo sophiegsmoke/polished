@@ -20,7 +20,7 @@
   color: #D1B781;
   font-size: 2.1em;
 }
-body {
+.contact-body {
   margin: 0;
   background-color: #EFD6B6;
 }
@@ -41,23 +41,14 @@ font-family: 'Cookie', cursive;
   color: #494236;
   font-size: 75px;
 }
-h6{
+.contact-h6{
     text-align: center;
     font-family: 'Amatic SC', cursive;
     color: #6C6250;
     font-size: 45px;
     border: double;
   }
-.comments{
-  text-align: center;
-border: none;
-padding: 25px;
 
-}
-.SUBMIT-button{
-  border: none;
-  font: 20px 'Bree Serif', Courier, monospaced;
-}
 .col-sm-4{
   border: 10px;
   border-color: white;

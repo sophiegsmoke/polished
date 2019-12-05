@@ -5,10 +5,12 @@
   padding: 20px;
   height: 100px;
 }
+
 nav {
   position: absolute;
   z-index: 3;
 }
+
 .main {
   position: relative;
   z-index: 1;
@@ -36,10 +38,12 @@ nav {
 body {
   margin: 0;
 }
+
 .nails-body {
   padding-right: 20px;
   background-color: #F1ECDF;
 }
+
 a {
   margin: 9px;
   font-size: 100%;
@@ -57,6 +61,7 @@ a:hover {
 a:hover:hover {
   text-decoration: underline;
 }
+
 /*index page tags*/
 .carousel-caption {
   opacity: 0.8;
@@ -64,10 +69,11 @@ a:hover:hover {
   bottom: auto;
   z-index: 3;
 }
+
 .d-block {
   z-index: -3;
   width: 700px;
-  padding: 20px!important;
+  padding: 20px !important;
 }
 
 /* Dropdown Button */
@@ -77,10 +83,12 @@ a:hover:hover {
   border: none;
   margin-top: -15px;
 }
+
 .dropdown-menu-index[x-placement^=bottom], .dropdown-menu-index[x-placement^=left], .dropdown-menu-index[x-placement^=right], .dropdown-menu-index[x-placement^=top] {
   z-index: 5;
   overflow: visible;
 }
+
 .dropdown-menu-index {
   position: absolute;
   font-size: 60%;
@@ -119,6 +127,7 @@ a:hover:hover {
   overflow: inherit;
   float: right;
 }
+
 .dropdown-menu-index a {
   color: black;
   display: block;
@@ -128,37 +137,56 @@ a:hover:hover {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-menu-index a:hover {background-color: #ddd; z-index: 3;}
+.dropdown-menu-index a:hover {
+  background-color: #ddd;
+  z-index: 3;
+}
+
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-menu-index {display: inline-block; flex: auto; z-index: 3;}
+.dropdown:hover .dropdown-menu-index {
+  display: inline-block;
+  flex: auto;
+  z-index: 3;
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .btn-index {background-color: #3e8e41; z-index: 4;}
+.dropdown:hover .btn-index {
+  background-color: #3e8e41;
+  z-index: 4;
+}
+
 .footer-image {
   height: 100px;
   width: 90px;
 }
+
 /*close index page tags*/
 /*nail page tags*/
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 160px;
+  /* Same as the width of the sidebar */
   padding: 0px 10px;
   margin-right: 80px;
 }
+
 .header {
   padding-left: 12%;
   text-align: center;
   margin-right: 120px;
 }
+
 h1 {
   font-family: 'Ibarra Real Nova', serif;
   text-transform: uppercase;
   font-size: 50px;
   margin-left: 15%;
 }
-.col-sm-4{
+
+.col-sm-4 {
   align: center;
   width: 400px;
 }
+
 .bar {
   color: black;
   background-color: #F1DFED;
@@ -174,38 +202,44 @@ h1 {
   box-shadow: 0 3.33px 10px -3.33px gray;
   top: 1%;
   margin-bottom: 30%;
-  z-index: -0.1!important;
+  z-index: -0.1 !important;
   margin-bottom: 35%;
 }
+
 .bar span {
   position: absolute;
 }
-.bar span:nth-child(1){
+
+.bar span:nth-child(1) {
   border-style: solid;
   border-width: 15px;
   z-index: -0.5;
   left: -0.5%;
 }
+
 .bar span:nth-child(1) {
   border-color: grey grey transparent transparent;
   top: 101%;
   left: -0.2%;
   z-index: -2;
 }
+
 .bar span:nth-child(3) {
-  border-color: grey transparent transparent grey ;
+  border-color: grey transparent transparent grey;
   top: 101%;
   left: 97%;
   z-index: -2;
   border-style: solid;
   border-width: 15px;
 }
-.bar span:nth-child(2){
+
+.bar span:nth-child(2) {
   top: 58%;
   border-style: solid;
   border-width: 30px;
   z-index: -7;
 }
+
 .bar span:nth-child(4) {
   top: 58%;
   border-style: solid;
@@ -214,17 +248,20 @@ h1 {
   left: 96%;
   position: absolute;
 }
+
 .bar span:nth-child(2) {
   border-color: #F5D2E1 #F5D2E1 #F5D2E1 transparent;
   left: -33px;
   box-shadow: 20px 20px 30px -10px grey;
 }
+
 .bar span:nth-child(4) {
   border-color: #F5D2E1 transparent #F5D2E1 #F5D2E1;
   left: 97%;
   box-shadow: -6.67px 6.33px 10px -3.33px grey;
 }
-h3{
+
+h3 {
   text-align: left;
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
@@ -233,18 +270,19 @@ h3{
 
 .col-md-6 {
   position: inherit;
-
 }
+
 .img-fluid {
   z-index: -3;
   opacity: 0.5;
 }
+
 .parent {
   position: relative;
   top: 0;
   z-index: 3;
-
 }
+
 .image1 {
   position: relative;
   margin-top: -80px;
@@ -254,25 +292,35 @@ h3{
   max-width: 100%;
   height: auto;
 }
+
 .text-box {
-position: relative;
-margin-top: -80px;
-z-index: -2;
+  position: relative;
+  margin-top: -80px;
+  z-index: -2;
 }
+
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: -1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 160px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: -1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
-  overflow-x: visible; /* Disable horizontal scroll */
+  background-color: #111;
+  /* Black */
+  overflow-x: visible;
+  /* Disable horizontal scroll */
   padding-top: 100px;
   color: black;
   background-color: #F1DFED;
   flex: auto;
 }
+
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
@@ -281,71 +329,79 @@ z-index: -2;
   color: #818181;
   display: block;
 }
+
 .sidenav li {
   font-family: 'McLaren', cursive;
   position: sticky;
 }
+
 .sidenav h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 40px;
   position: sticky;
 }
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
 /* Style page content */
 p {
   font-size: 15px;
   line-height: 80%;
 }
-.btn .arrow-nails{
+
+.btn .arrow-nails {
   opacity: 1;
 }
+
 .row {
   line-height: 20px;
-
 }
-.btn .arrow-nails{
+
+.btn .arrow-nails {
   margin-top: -14px;
   font-size: 16px;
   border: none;
   color: black;
   text-align: center;
-
-
 }
+
 .manicure-banner {
   z-index: 6;
   position: relative;
 }
+
 .pedicure-banner {
   z-index: 5;
   position: relative;
 }
+
 .kids-banner {
   z-index: 4;
   position: relative;
 }
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-menu {
   display: none;
   position: absolute;
   width: 500px;
   height: 600%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
   z-index: 9999999;
   flex: initial;
   margin-top: -15px;
   padding-top: 2px;
   font-size: 70%;
-  margin:0 -3%;
+  margin: 0 -3%;
   border-radius: 0;
   left: 50% !important;
   right: auto !important;
   text-align: center !important;
   transform: translate(-50%, 0) !important;
-  word-wrap:break-word;
+  word-wrap: break-word;
   overflow: inherit;
   float: left;
   list-style: none;
@@ -358,23 +414,24 @@ p {
   width: 200%;
   margin-left: 4%;
   margin-top: -65px;
-  padding-top:7.5%;
+  padding-top: 7.5%;
   flex: auto;
 }
+
 .dropdown-menu h7 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 70%;
   z-index: 100;
 }
+
 .dropdown-menu p {
   font-family: 'McLaren', cursive;
   font-size: 50%;
   line-height: 20px;
   word-wrap: break-word;
   z-index: 9999999;
-
-
 }
+
 .col-lg-12 {
   font-family: 'Amatic SC', cursive;
   text-transform: lowercase;
@@ -383,119 +440,246 @@ p {
 }
 
 a {
-  position:relative;
+  position: relative;
 }
+
 .tiny-text {
   font-size: 40%;
 }
+
 /* Links inside the dropdown */
 .dropdown-menu a {
   color: black;
   display: block;
-  z-index: 50!important;
+  z-index: 50 !important;
   position: relative;
 }
+
 .container-manicures {
   position: static;
   background-color: white;
   display: block;
   position: absolute;
-  z-index: 50!important;
+  z-index: 50 !important;
   overflow: visible;
   border-width: medium;
   border-color: black;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-menu {display: inline-block; flex: auto; z-index: 9999999; float: none;}
+.dropdown:hover .dropdown-menu {
+  display: inline-block;
+  flex: auto;
+  z-index: 9999999;
+  float: none;
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .btn {color: black;}
-.dropdown:hover .container-manicures .dropdown-menu a {z-index: 60;}
+.dropdown:hover .btn {
+  color: black;
+}
+
+.dropdown:hover .container-manicures .dropdown-menu a {
+  z-index: 60;
+}
+
 /*close nail page tags*/
+/*start mancave tags*/
+.man-body {
+  margin: 0;
+  background-color: #DFDEDB;
+}
+
+h3 {
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 45px;
+}
+
+h4 {
+  color: #6C6250;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #494236;
+  font-size: 60px;
+}
+
+h6 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 45px;
+}
+
+h7 {
+  font-family: 'McLaren', cursive;
+}
+
+h8 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  border: 4px dotted;
+  border-width: 5px;
+}
+
+a:hover {
+  color: #9E8C64;
+}
+
+a:hover:hover {
+  text-decoration: underline;
+}
+
+/*close mancave tags*/
+/*beginning of contact tags*/
+.contact-body {
+  margin: 0;
+  background-color: #EFD6B6;
+}
+
+h4 {
+  color: #6C6250;
+  font-family: 'Solway', serif;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  color: #494236;
+  font-size: 75px;
+}
+
+.contact-h6 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 45px;
+  border: double;
+}
+
+/*end of contact tags*/
+/*beginning of review tags*/
+.review-body {
+  background-color: #EFD6B6;
+}
+
+.review {
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 75px;
+}
+
+h10 {
+  font-size: 25px;
+}
+/*end of review tags*/
 /*media tags*/
-@media (max-width: 1500px;) {
+@media (max-width: 1500px; ) {
   .carousel-caption {
     padding-top: 10px;
   }
 }
+
 @media (max-width: 700px) {
+  .image1 {
+    display: none;
+    max-width: 100%;
+    height: auto;
+  }
 
-.image1 {
-  display: none;
-  max-width: 100%;
-  height: auto;
-}
-.container-manicures {
-  width: 400px;
-  margin-left: 65px;
+  .container-manicures {
+    width: 400px;
+    margin-left: 65px;
+  }
 
+  .dropdown-menu a {
+    width: 130;
+    padding-left: 30px;
+  }
+
+  .bar span {
+    display: none;
+  }
+
+  .bar {
+    background-color: transparent;
+    box-shadow: none;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .btn {
+    padding-left: 25px;
+  }
+
+  .navbar {
+    height: 60px;
+  }
+
+  .btn {
+    margin-left: -17px;
+  }
+
+  .sidenav {
+    margin-top: -40px;
+  }
+
+  .image1 {
+    height: 50px;
+    width: 130px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .col-lg-12 {
+    font-size: 20px;
+  }
 }
-.dropdown-menu a{
-  width: 130;
-  padding-left: 30px;
-}
-.bar span {
-  display: none;
-}
-.bar {
-  background-color: transparent;
-  box-shadow: none;
-  text-align: center;
-  margin-left: 20px;
-}
-.btn {
-  padding-left: 25px;
-}
-.navbar {
-  height: 60px;
-}
-.btn {
-  margin-left: -17px;
-}
-.sidenav {
-  margin-top: -40px;
-}
-.image1 {
-  height: 50px;
-  width: 130px;
-}
-h1 {
-  font-size: 35px;
-}
-.col-lg-12{
-  font-size: 20px;
-}
-}
+
 @media (max-width: 500px) {
-.btn {
-  margin-left: -25px;
-}
-.dropdown-menu a{
-  width: 200px;
-  text-align: center;
+  .btn {
+    margin-left: -25px;
+  }
 
+  .dropdown-menu a {
+    width: 200px;
+    text-align: center;
+  }
+
+  .container-manicures {
+    width: 210px;
+    margin-left: 195px;
+  }
 }
-.container-manicures {
-  width: 210px;
-  margin-left: 195px;
-}
-}
+
 @media (max-width: 400px) {
-  .dropdown-menu a{
+  .dropdown-menu a {
     width: 150px;
     text-align: center;
   }
+
   .container-manicures {
     width: 160px;
     margin-left: 150px;
   }
+
   .col-lg-12 {
     font-size: 2px;
   }
 }
+
 /*close media tags*/
 /*footer tags*/
-#footer{
+#footer {
   font-size: 27px;
   background-color: white;
   position: absolute;
@@ -516,4 +700,5 @@ h3 {
   color: #6C6250;
   font-size: 60px;
 }
+
 /*close footer tags*/
