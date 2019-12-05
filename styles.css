@@ -69,7 +69,11 @@ a:hover:hover {
   bottom: auto;
   z-index: 3;
 }
-
+.carousel-inner {
+  width: 160%;
+  margin-left: -200px;
+  margin-top: -30px;
+}
 .d-block {
   z-index: -3;
   width: 700px;
