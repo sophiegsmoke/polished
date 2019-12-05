@@ -553,8 +553,7 @@ h4 {
   font-family: 'Solway', serif;
   text-align: center;
 }
-
-h5 {
+.contact-h5 {
   text-align: center;
   font-family: 'Cookie', cursive;
   color: #494236;
