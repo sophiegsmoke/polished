@@ -1,4 +1,3 @@
-
 .navbar {
   background-color: white;
   background-image: none;
@@ -7,9 +6,11 @@
   height: 100px;
   position: relative;
 }
+
 .logo {
   display: absolute
 }
+
 .nav-item .nav-link {
   color: #D1B781;
   font-size: 2.1em;
@@ -17,6 +18,7 @@
   letter-spacing: 3px;
   position: relative;
 }
+
 .navbar-nav {
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
@@ -24,40 +26,39 @@
   font-size: 2.1em;
   position: relative;
 }
-.nails-body {
+
+body {
   padding-right: 20px;
   background-color: #F1ECDF;
 }
+
 a {
   margin: 9px;
   font-size: 100%;
   position: relative;
 }
+
 ul {
   background-color: white;
 }
+
 a:hover {
   color: #9E8C64;
 }
+
 a:hover:hover {
   text-decoration: underline;
 }
+
 .header {
   padding-left: 12%;
-
-
 }
-h1 {
-  font-family: 'Ibarra Real Nova', serif;
-  text-transform: uppercase;
-  font-size: 50px;
-  margin-left: 15%;
-    color: #6C6250;
-}
-.col-sm-4{
+
+.col-sm-4 {
   align: center;
   width: 400px;
 }
+
 .bar {
   color: black;
   background-color: #F1DFED;
@@ -76,35 +77,41 @@ h1 {
   z-index: -0.1!important;
   margin-bottom: 35%;
 }
+
 .bar span {
   position: absolute;
 }
-.bar span:nth-child(1){
+
+.bar span:nth-child(1) {
   border-style: solid;
   border-width: 15px;
   z-index: -0.5;
   left: -0.5%;
 }
+
 .bar span:nth-child(1) {
   border-color: grey grey transparent transparent;
   top: 101%;
   left: -0.2%;
   z-index: -2;
 }
+
 .bar span:nth-child(3) {
-  border-color: grey transparent transparent grey ;
+  border-color: grey transparent transparent grey;
   top: 101%;
   left: 97%;
   z-index: -2;
   border-style: solid;
   border-width: 15px;
 }
-.bar span:nth-child(2){
+
+.bar span:nth-child(2) {
   top: 58%;
   border-style: solid;
   border-width: 30px;
   z-index: -7;
 }
+
 .bar span:nth-child(4) {
   top: 58%;
   border-style: solid;
@@ -113,37 +120,46 @@ h1 {
   left: 96%;
   position: absolute;
 }
+
 .bar span:nth-child(2) {
   border-color: #F5D2E1 #F5D2E1 #F5D2E1 transparent;
   left: -33px;
   box-shadow: 20px 20px 30px -10px grey;
 }
+
 .bar span:nth-child(4) {
   border-color: #F5D2E1 transparent #F5D2E1 #F5D2E1;
   left: 97%;
   box-shadow: -6.67px 6.33px 10px -3.33px grey;
 }
-h3{
+
+h3 {
   text-align: left;
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
   font-size: 60px;
 }
 
+#footer {
+  font-size: 27px;
+  background-color: white;
+}
+
 .col-md-6 {
   position: inherit;
-
 }
+
 .img-fluid {
   z-index: -3;
   opacity: 0.5;
 }
+
 .parent {
   position: relative;
   top: 0;
   z-index: 3;
-
 }
+
 .image1 {
   position: relative;
   margin-top: -80px;
@@ -151,100 +167,57 @@ h3{
   padding-bottom: 20%;
   width: 100%;
 }
+
 .text-box {
-position: relative;
-margin-top: -80px;
-z-index: -2;
-
+  position: relative;
+  margin-top: -80px;
+  z-index: -2;
+  background-color: lightgray;
 }
-/*media querys*/
-@media (max-width: 700px) {
 
-.image1 {
-  display: none;
+@media (max-width: 700px) {
+  .bar {
+    height: 60px;
+  }
+
+  .image1 {
+    display: none;
+  }
 }
 .container-manicures {
   width: 400px;
   margin-left: 65px;
 
-}
-.dropdown-menu a{
-  width: 130;
-}
-.bar span {
-  display: none;
-}
-.bar {
-  background-color: transparent;
-  box-shadow: none;
-  text-align: center;
-  margin-left: 20px;
-}
-.btn {
-  padding-left: 25px;
-}
-.navbar {
-  height: 60px;
-}
-img {
-  height: 50px;
-  width: 130px;
-}
-h1 {
-  font-size: 35px;
-}
-.col-lg-12{
-  font-size: 20px;
-}
-}
-@media (max-width: 500px) {
-
-.dropdown-menu a{
-  width: 200px;
-  text-align: center;
-
-}
-.container-manicures {
-  width: 210px;
-  margin-left: 195px;
-}
-}
-@media (max-width: 400px) {
-  .dropdown-menu a{
-    width: 150px;
-    text-align: center;
-  }
-  .container-manicures {
-    width: 160px;
-    margin-left: 150px;
-  }
-  .col-lg-12 {
-    font-size: 2px;
-  }
-}
-/*end media querys*/
 .image1 {
   max-width: 100%;
-
   height: auto;
 }
 
+.foot {
+  background-color: white;
+}
 
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: -1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 160px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: -1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
-  overflow-x: visible; /* Disable horizontal scroll */
+  background-color: #111;
+  /* Black */
+  overflow-x: visible;
+  /* Disable horizontal scroll */
   padding-top: 100px;
   color: black;
   background-color: #F1DFED;
-  flex: auto;
-
 }
+
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
@@ -253,35 +226,42 @@ h1 {
   color: #818181;
   display: block;
 }
+
 .sidenav li {
   font-family: 'McLaren', cursive;
   position: sticky;
 }
+
 .sidenav h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 40px;
   position: sticky;
 }
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
 /* Style page content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 160px;
+  /* Same as the width of the sidebar */
   padding: 0px 10px;
   margin-right: 80px;
 }
+
 .header {
   text-align: center;
   margin-right: 120px;
 }
-.footer{
+
+.footer {
   background-color: white;
 }
-#footer{
-  font-size: 27px;
-  background-color: white;
+
+.container {
+  position: relative;
 }
 
 h6 {
@@ -299,7 +279,7 @@ h6 {
   width: 200%;
   margin-left: 4%;
   margin-top: -65px;
-  padding-top:7.5%;
+  padding-top: 7.5%;
   flex: auto;
 }
 
@@ -307,73 +287,63 @@ p {
   font-size: 15px;
   line-height: 80%;
 }
+
 .btn {
   opacity: 1;
 }
+
 .row {
   line-height: 20px;
-
 }
+
 .btn {
   margin-top: -14px;
   font-size: 16px;
   border: none;
-  color: black;
-  text-align: center;
+  color: black
+}
 
-
-}
-.manicure-banner {
-  z-index: 6;
-  position: relative;
-}
-.pedicure-banner {
-  z-index: 5;
-  position: relative;
-}
-.kids-banner {
-  z-index: 4;
-  position: relative;
-}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-menu {
   display: none;
   position: absolute;
   width: 500px;
   height: 600%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
   z-index: 9999999;
   flex: initial;
   margin-top: -15px;
   padding-top: 2px;
   font-size: 70%;
-  margin:0 -3%;
+  margin: 0 -3%;
+  border-width: thin;
   border-radius: 0;
   left: 50% !important;
   right: auto !important;
   text-align: center !important;
   transform: translate(-50%, 0) !important;
-  word-wrap:break-word;
+  word-wrap: break-word;
   overflow: inherit;
   float: left;
   list-style: none;
   background-color: transparent;
   border: none;
 }
+
 .dropdown-menu h7 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 70%;
   z-index: 100;
 }
+
 .dropdown-menu p {
   font-family: 'McLaren', cursive;
   font-size: 50%;
   line-height: 20px;
   word-wrap: break-word;
   z-index: 9999999;
-
-
 }
+
 .col-lg-12 {
   font-family: 'Amatic SC', cursive;
   text-transform: lowercase;
@@ -382,11 +352,12 @@ p {
 }
 
 a {
-  position:relative;
+  position: relative;
 }
 .tiny-text {
   font-size: 40%;
 }
+
 /* Links inside the dropdown */
 .dropdown-menu a {
   color: black;
@@ -394,6 +365,7 @@ a {
   z-index: 50!important;
   position: relative;
 }
+
 .container-manicures {
   position: static;
   background-color: white;
@@ -406,28 +378,35 @@ a {
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-menu {display: inline-block; flex: auto; z-index: 9999999; float: none;}
+.dropdown:hover .dropdown-menu {
+  display: inline-block;
+  flex: auto;
+  z-index: 9999999;
+  float: none;
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .btn {color: black;}
-.dropdown:hover .container-manicures .dropdown-menu a {z-index: 60;}
-#footer{
+.dropdown:hover .btn {
+  color: black;
+}
+
+#footer {
   font-size: 27px;
   background-color: white;
 }
-.footer{
+
+.footer {
   background-color: white;
 }
-.social-icons{
+
+.social-icons {
   font-size: 27px;
   background-color: white;
 }
-.foot {
-  background-color: white;
-}
-h3{
+
+h3 {
   text-align: left;
   font-family: 'Amatic SC', cursive;
-    color: #6C6250;
-
+  color: #6C6250;
   font-size: 60px;
 }

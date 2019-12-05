@@ -5,87 +5,114 @@
   padding: 20px;
   height: 100px;
 }
+
 .logo {
   display: absolute
 }
+
 .nav-item .nav-link {
   color: #D1B781;
   font-size: 2.1em;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
 }
+
 .navbar-nav {
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
   color: #D1B781;
   font-size: 2.1em;
-}
+
+body {
+
 .contact-body {
+>>>>>>> 0a3f35dbebde5b9605e14cdd250095ef9a707003
   margin: 0;
   background-color: #EFD6B6;
 }
-h3{
+
+h3 {
   text-align: left;
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
   font-size: 45px;
 }
-h4{
+
+h4 {
   color: #6C6250;
   font-family: 'Solway', serif;
   text-align: center;
 }
-h5                                                                                   {
+
+h5 {
   text-align: center;
 font-family: 'Cookie', cursive;
   color: #494236;
   font-size: 75px;
 }
-.contact-h6{
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    color: #6C6250;
-    font-size: 45px;
-    border: double;
-  }
 
-.col-sm-4{
+h6 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 45px;
+  border: double;
+}
+
+.comments {
+  text-align: center;
+  border: none;
+  padding: 25px;
+}
+
+.SUBMIT-button {
+  border: none;
+  font: 20px 'Bree Serif', Courier, monospaced;
+}
+
+.col-sm-4 {
   border: 10px;
   border-color: white;
 }
-  #footer{
-    font-size: 27px;
-    background-color: white;
-  }
-  .foot {
-    background-color: white;
-  }
-  .footer{
-    background-color: white;
-  }
-  a:hover {
-    color: #9E8C64;
-  }
-  a:hover:hover {
-    text-decoration: underline;
-  }
 
+#footer {
+  font-size: 27px;
+  background-color: white;
+}
 
-  #footer{
-    font-size: 27px;
-    background-color: white;
-  }
-  .footer{
-    background-color: white;
-  }
-  .social-icons{
-    font-size: 27px;
-    background-color: white;
-  }
-  h3{
-    text-align: left;
-    font-family: 'Amatic SC', cursive;
-      color: #6C6250;
+.foot {
+  background-color: white;
+}
 
-    font-size: 60px;
-  }
+.footer {
+  background-color: white;
+}
+
+a:hover {
+  color: #9E8C64;
+}
+
+a:hover:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  font-size: 27px;
+  background-color: white;
+}
+
+.footer {
+  background-color: white;
+}
+
+.social-icons {
+  font-size: 27px;
+  background-color: white;
+}
+
+h3 {
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 60px;
+}

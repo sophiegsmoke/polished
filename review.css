@@ -31,28 +31,34 @@ a:hover {
 a:hover:hover {
   text-decoration: underline;
 }
+
 body {
   background-color: #EFD6B6;
 }
+
 h3 {
   text-align: left;
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
   font-size: 60px;
 }
+
 h4 {
   font-family: 'Amatic SC', cursive;
   color: #6C6250;
   font-size: 50px;
 }
-.review{
+
+.review {
   text-align: center;
   font-family: 'Cookie', cursive;
   font-size: 75px;
 }
+
 h10 {
- font-size: 25px;
+  font-size: 25px;
 }
+
 #footer {
   font-size: 27px;
   background-color: white;
