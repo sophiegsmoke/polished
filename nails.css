@@ -41,7 +41,7 @@ a:hover:hover {
   background-color: #F1ECDF;
 }
 .header {
-  padding-left: 12%;
+  text-align: left;
 
 
 }
@@ -204,12 +204,7 @@ z-index: -2;
 }
 
 
-h6 {
-  position: absolute;
-  padding-top: 200px;
 
-  z-index: 2;
-}
 
 .dropdown-menu-nails {
 
@@ -280,6 +275,15 @@ background-color: transparent;
 
 
 }
+.manicure-menu {
+  z-index: 10;
+}
+.pedicure-menu {
+  z-index: 9;
+}
+.kids-menu {
+  z-index: 8;
+}
 .col-lg-12 {
   font-family: 'Amatic SC', cursive;
   text-transform: lowercase;
@@ -298,83 +302,110 @@ background-color: transparent;
   position: relative;
 }
 .container-nails {
-  position: static;
+  position: absolute;
   background-color: white;
   display: block;
   position: absolute;
   z-index: 50!important;
   margin-top: 85px;
-  width: 600px;
-  margin-left: 40px;
+  width: 550px;
+  margin-left: 22%;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown-nails:hover .dropdown-menu-nails {display: inline-block; flex: auto; z-index: 9999999; float: none;}
+.dropdown-nails:hover .dropdown-menu-nails {display: inline-block;flex: auto;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown-nails:hover .btn-nails {color: black;}
-.dropdown-nails:hover .container-nails .dropdown-menu-nails a {z-index: 60;}
-@media (max-width: 700px) {
-
-.image1 {
-  display: none;
-}
-.container-nails {
-  width: 400px;
-  margin-left: 65px;
-
-}
-.dropdown-menu-nails a{
-  width: 130;
-}
-.bar span {
-  display: none;
-}
-.bar {
-  background-color: transparent;
-  box-shadow: none;
-  text-align: center;
-  margin-left: 20px;
-}
-.btn-nails {
-  padding-left: 25px;
-}
-.navbar {
-  height: 60px;
-}
-img {
-  height: 50px;
-  width: 130px;
-}
-h1 {
-  font-size: 35px;
-}
-.col-lg-12{
-  font-size: 20px;
-}
+.dropdown-nails:hover .container-nails .dropdown-menu-nails a {}
+@media (max-width: 900px) {
+  .container-nails {
+    width: 450px;
+  }
 }
 @media (max-width: 700px) {
   .dropdown-menu-nails a{
     width: 320px;
     margin-left: 5px;
   }
+
   .container-nails {
-  margin: 35px;
-  width: 330px;
-  margin-left: 35px;
-  margin-top: 50px;
+    width: 400px;
+    margin-left: 45px;
+    margin-top: 90px;
+
+  }
+  .dropdown-menu-nails a{
+    width: 105px;
+  }
+
+  .btn-nails {
+    margin-left: -1px;
+  }
+  .navbar {
+    height: 60px;
+  }
+.logo {
+  height: 50px;
+  width: 130px;
+}
+  h1 {
+    font-size: 35px;
+  }
+  .col-lg-12{
+    font-size: 20px;
   }
 }
+
+@media (max-width: 575px) {
+  .image1 {
+    display: none;
+  }
+  .bar span {
+    display: none;
+  }
+  .bar {
+    background-color: transparent;
+    box-shadow: none;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .dropdown-menu-nails a{
+    width: 300px;
+  }
+  .container-nails {
+    width: 310px;
+    margin-left: -5px;
+  }
+  .btn-nails {
+    margin-left: -20px;
+  }
 }
 @media (max-width: 500px) {
-
 .dropdown-menu-nails a{
-  width: 150px;
+  width: 200px;
 
 }
 .container-nails {
-  width: 100px;
-  margin-left: -57px;
+  width: 210px;
+  margin-left: 35px;
+  margin-top: 100px;
 }
+.btn-nails {
+  margin-left: -20px;
+}
+}
+@media (max-width: 400px) {
+  .dropdown-menu-nails a{
+    width: 150px;
+  }
+  .container-nails {
+    width: 160px;
+    margin-left: -50px;
+    margin-top: 60px;
+  }
+  .btn-nails {
+    margin-left: -20px;
+  }
 }
 #footer{
   font-size: 27px;
