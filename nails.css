@@ -21,7 +21,11 @@
   color: #D1B781;
   font-size: 2.1em;
 }
-
+.navbar-collapse {
+  z-index: 10;
+  display: block;
+  position: relative;
+}
 a {
   margin: 9px;
   font-size: 100%;
@@ -37,7 +41,6 @@ a:hover:hover {
 }
 /*end nav tags*/
 .nails-body {
-  padding-right: 20px;
   background-color: #F1ECDF;
 }
 .header {
@@ -193,11 +196,7 @@ z-index: -2;
   color: #f1f1f1;
 }
 /* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-  margin-right: 80px;
-}
+
 .header {
   text-align: center;
   margin-right: 120px;
