@@ -21,9 +21,10 @@
   color: #D1B781;
   font-size: 2.1em;
 }
-body {
-  padding-right: 20px;
-  background-color: #F1ECDF;
+.navbar-collapse {
+  z-index: 10;
+  display: block;
+  position: relative;
 }
 a {
   margin: 9px;
@@ -38,8 +39,12 @@ a:hover {
 a:hover:hover {
   text-decoration: underline;
 }
+/*end nav tags*/
+.nails-body {
+  background-color: #F1ECDF;
+}
 .header {
-  padding-left: 12%;
+  text-align: left;
 
 
 }
@@ -118,16 +123,7 @@ h1 {
   left: 97%;
   box-shadow: -6.67px 6.33px 10px -3.33px grey;
 }
-h3{
-  text-align: left;
-  font-family: 'Amatic SC', cursive;
-  color: #6C6250;
-  font-size: 60px;
-}
-#footer{
-  font-size: 27px;
-  background-color: white;
-}
+
 .col-md-6 {
   position: inherit;
 
@@ -155,65 +151,14 @@ margin-top: -80px;
 z-index: -2;
 
 }
-@media (max-width: 700px) {
 
-.image1 {
-  display: none;
-}
-.container-manicures {
-  width: 400px;
-  margin-left: 65px;
-
-}
-.dropdown-menu a{
-  width: 130;
-}
-.bar span {
-  display: none;
-}
-.bar {
-  background-color: transparent;
-  box-shadow: none;
-  text-align: center;
-  margin-left: 20px;
-}
-.btn {
-  padding-left: 25px;
-}
-.navbar {
-  height: 60px;
-}
-img {
-  height: 50px;
-  width: 130px;
-}
-h1 {
-  font-size: 35px;
-}
-.col-lg-12{
-  font-size: 20px;
-}
-}
-@media (max-width: 500px) {
-
-.dropdown-menu a{
-  width: 150px;
-
-}
-.container-manicures {
-  width: 165px;
-  margin-left: 200px;
-}
-}
 .image1 {
   max-width: 100%;
 
   height: auto;
 }
 
-.foot {
-  background-color: white;
-}
+
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
@@ -251,52 +196,26 @@ h1 {
   color: #f1f1f1;
 }
 /* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-  margin-right: 80px;
-}
+
 .header {
   text-align: center;
   margin-right: 120px;
 }
-.footer{
-  background-color: white;
-}
-.container {
-  position: relative;
-}
-h6 {
-  position: absolute;
-  padding-top: 200px;
 
-  z-index: 2;
-}
 
-.dropdown-menu {
-  position: absolute;
-  font-size: 60%;
-  color: black;
-  height: 500px;
-  width: 200%;
-  margin-left: 4%;
-  margin-top: -65px;
-  padding-top:7.5%;
-  flex: auto;
-}
 
-p {
-  font-size: 15px;
-  line-height: 80%;
+
+.dropdown-menu-nails {
+
 }
-.btn {
-  opacity: 1;
+.btn-nails {
+background-color: transparent;
 }
 .row {
   line-height: 20px;
 
 }
-.btn {
+.btn-nails {
   margin-top: -14px;
   font-size: 16px;
   border: none;
@@ -306,7 +225,7 @@ p {
 
 }
 /* Dropdown Content (Hidden by Default) */
-.dropdown-menu {
+.dropdown-menu-nails {
   display: none;
   position: absolute;
   width: 500px;
@@ -329,13 +248,24 @@ p {
   list-style: none;
   background-color: transparent;
   border: none;
+  position: absolute;
+  font-size: 60%;
+  color: black;
+  height: 500px;
+  width: 200%;
+  margin-left: 4%;
+  margin-top: -65px;
+  padding-top:7.5%;
+  flex: auto;
+  font-size: 15px;
+  line-height: 80%;
 }
-.dropdown-menu h7 {
+.dropdown-menu-nails h7 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 70%;
   z-index: 100;
 }
-.dropdown-menu p {
+.dropdown-menu-nails p {
   font-family: 'McLaren', cursive;
   font-size: 50%;
   line-height: 20px;
@@ -344,6 +274,15 @@ p {
 
 
 }
+.manicure-menu {
+  z-index: 10;
+}
+.pedicure-menu {
+  z-index: 9;
+}
+.kids-menu {
+  z-index: 8;
+}
 .col-lg-12 {
   font-family: 'Amatic SC', cursive;
   text-transform: lowercase;
@@ -351,33 +290,122 @@ p {
   letter-spacing: 3px;
 }
 
-a {
-  position:relative;
-}
-
 .tiny-text {
   font-size: 40%;
 }
 /* Links inside the dropdown */
-.dropdown-menu a {
+.dropdown-menu-nails a {
   color: black;
   display: block;
   z-index: 50!important;
   position: relative;
 }
-.container-manicures {
-  position: static;
+.container-nails {
+  position: absolute;
   background-color: white;
   display: block;
   position: absolute;
   z-index: 50!important;
+  margin-top: 85px;
+  width: 550px;
+  margin-left: 22%;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-menu {display: inline-block; flex: auto; z-index: 9999999; float: none;}
+.dropdown-nails:hover .dropdown-menu-nails {display: inline-block;flex: auto;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .btn {color: black;}
-.dropdown:hover .container-manicures .dropdown-menu a {z-index: 60;}
+.dropdown-nails:hover .btn-nails {color: black;}
+.dropdown-nails:hover .container-nails .dropdown-menu-nails a {}
+@media (max-width: 900px) {
+  .container-nails {
+    width: 450px;
+  }
+}
+@media (max-width: 700px) {
+  .dropdown-menu-nails a{
+    width: 320px;
+    margin-left: 5px;
+  }
+
+  .container-nails {
+    width: 400px;
+    margin-left: 45px;
+    margin-top: 90px;
+
+  }
+  .dropdown-menu-nails a{
+    width: 105px;
+  }
+
+  .btn-nails {
+    margin-left: -1px;
+  }
+  .navbar {
+    height: 60px;
+  }
+.logo {
+  height: 50px;
+  width: 130px;
+}
+  h1 {
+    font-size: 35px;
+  }
+  .col-lg-12{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .image1 {
+    display: none;
+  }
+  .bar span {
+    display: none;
+  }
+  .bar {
+    background-color: transparent;
+    box-shadow: none;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .dropdown-menu-nails a{
+    width: 300px;
+  }
+  .container-nails {
+    width: 310px;
+    margin-left: -5px;
+  }
+  .btn-nails {
+    margin-left: -20px;
+  }
+}
+@media (max-width: 500px) {
+.dropdown-menu-nails a{
+  width: 200px;
+
+}
+.container-nails {
+  width: 210px;
+  margin-left: 35px;
+  margin-top: 100px;
+}
+.btn-nails {
+  margin-left: -20px;
+}
+}
+@media (max-width: 400px) {
+  .dropdown-menu-nails a{
+    width: 150px;
+  }
+  .container-nails {
+    width: 160px;
+    margin-left: -50px;
+    margin-top: 60px;
+  }
+  .btn-nails {
+    margin-left: -20px;
+  }
+}
 #footer{
   font-size: 27px;
   background-color: white;
