@@ -78,13 +78,14 @@ img {
   background-color: white;
   color: black;
   height: 500px;
-  z-index: 1;
+  z-index: 8;
   width: 200%;
   margin-left: 4%;
   margin-top: -65px;
   padding-top:7.5%;
   flex: auto;
 }
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-menu {
   display: none;
@@ -113,7 +114,7 @@ img {
 width: 130%;
 margin: 0 -200px;
 margin-right: -100px;
-z-index: -2;
+
 position: relative;
 
 }
@@ -127,11 +128,11 @@ position: relative;
   overflow: auto !important;
 }
 /* Change color of dropdown links on hover */
-.dropdown-menu a:hover {background-color: #ddd; z-index: 3;}
+.dropdown-menu a:hover {background-color: #ddd; z-index: 7;}
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-menu {display: inline-block; flex: auto; z-index: 3;}
+.dropdown:hover .dropdown-menu {display: inline-block!important; flex: auto; z-index: 3;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41; z-index: 4;}
+.dropdown:hover .dropbtn {background-color: #3e8e41; z-index: 7;}
 /*close index tags*/
 /*nails tags*/
 a {
@@ -497,6 +498,121 @@ h5{
     font-size: 60px;
   }
 /*end contact tags*/
+/*man cave tags*/
+.man-body {
+  margin: 0;
+  background-color: #DFDEDB;
+}
+h3{
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 45px;
+}
+h4{
+  color: #6C6250;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+h5{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #494236;
+  font-size: 60px;
+}
+.man-h6{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: #6C6250;
+    font-size: 45px;
+  }
+  h7{
+    font-family: 'McLaren', cursive;
+}
+h8{
+font-family: 'Luckiest Guy', cursive;
+font-size: 30px;
+border: 4px dotted ;
+border-width: 5px;
+}
+a:hover {
+  color: #9E8C64;
+}
+a:hover:hover {
+  text-decoration: underline;
+}
+footer{
+  background-color: white;
+}
+#footer{
+  font-size: 27px;
+  background-color: white;
+}
+.foot {
+  background-color: white;
+}
+
+#footer{
+  font-size: 27px;
+  background-color: white;
+}
+.footer{
+  background-color: white;
+}
+.social-icons{
+  font-size: 27px;
+  background-color: white;
+}
+h3{
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+    color: #6C6250;
+
+  font-size: 60px;
+}
+/*end man cave tags*/
+/*hair tags*/
+.hairprices{
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+}
+/*styles the content to the same color and font*/
+h1{
+  font-size: 55px;
+  font-family: 'Cookie', cursive;
+}
+/*styles the headings in the content*/
+
+.hair1{
+  border: 200px white;
+}
+.hair{
+  background-color: #EFD6B6;
+
+}
+
+/*end hair tags*/
+/*review tags*/
+h3 {
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 60px;
+}
+h4 {
+  font-family: 'Amatic SC', cursive;
+  color: #6C6250;
+  font-size: 50px;
+}
+.review{
+  text-align: center;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 55px;
+}
+h10 {
+ font-size: 25px;
+}
+/*end review tags*/
 /*media tags*/
 @media (max-width: 900px) {
   .container-nails {
@@ -544,7 +660,7 @@ h5{
     margin-left: -1px;
   }
   .navbar {
-    height: 60px;
+    height: 90px;
   }
 .logo {
   height: 50px;
