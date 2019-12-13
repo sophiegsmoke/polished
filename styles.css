@@ -7,7 +7,7 @@
   position: relative;
 }
 nav {
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 .logo {
@@ -25,15 +25,16 @@ nav {
   letter-spacing: 3px;
   color: #D1B781;
   font-size: 2.1em;
+  z-index: 6;
 }
 nav a {
   position: relative;
   z-index: 6;
 }
 /*close nav tags*/
-
+/*index tags*/
 body {
-  margin: 0;
+  margin-right: -130px;
 }
 a {
   margin: 9px;
@@ -57,12 +58,9 @@ z-index: 3;
 }
 img {
   z-index: -3;
+
 }
-@media (max-width: 1500px;) {
-  .carousel-caption {
-    padding-top: 10px;
-  }
-}
+
 /* Dropdown Button */
 .btn {
   padding: 10px;
@@ -111,6 +109,16 @@ img {
   overflow: inherit;
   float: right;
 }
+.carousel-inner {
+width: 130%;
+margin: 0 -200px;
+margin-right: -100px;
+z-index: -2;
+position: relative;
+
+}
+
+
 .dropdown-menu a {
   color: black;
   display: block;
@@ -124,6 +132,7 @@ img {
 .dropdown:hover .dropdown-menu {display: inline-block; flex: auto; z-index: 3;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41; z-index: 4;}
+/*close index tags*/
 /*nails tags*/
 a {
   margin: 9px;
@@ -421,10 +430,98 @@ background-color: transparent;
 .dropdown-nails:hover .btn-nails {color: black;}
 .dropdown-nails:hover .container-nails .dropdown-menu-nails a {}
 /*end nails tags*/
+/*contact tags*/
+body {
+  margin: 0;
+  background-color: #EFD6B6;
+}
+.contact-h1{
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 52px;
+}
+h3{
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+    color: #6C6250;
+    text-transform: capitalize;
+
+  font-size: 60px;
+}
+h4{
+  color: #6C6250;
+  font-family: 'Solway', serif;
+  text-align: center;
+}
+h5{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #494236;
+  font-size: 60px;
+}
+.contact-h6{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: #6C6250;
+    font-size: 45px;
+    border: double;
+  }
+.dt-store{
+  text-align: center;
+
+}
+.tf-store{
+  text-align: center;
+}
+.mc-store{
+  text-align: center;
+}
+.col-sm-4{
+  position: relative;
+}
+  #footer{
+    font-size: 27px;
+    background-color: white;
+  }
+  .footer{
+    background-color: white;
+  }
+  .social-icons{
+    font-size: 27px;
+    background-color: white;
+  }
+  h3{
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+      color: #6C6250;
+
+    font-size: 60px;
+  }
+/*end contact tags*/
 /*media tags*/
 @media (max-width: 900px) {
   .container-nails {
     width: 450px;
+  }
+}
+@media (max-width: 1200px) {
+  .carousel-inner {
+    width: 160%;
+  }
+}
+@media (max-width: 900px) {
+  .ourlogo {
+    width: 300px;
+    height: 130px;
+  }
+}
+@media (max-width: 750px) {
+  .carousel-inner {
+    width: 180%;
+  }
+}
+@media (max-width: 650px) {
+  .carousel-inner {
+    width: 230%;
   }
 }
 @media (max-width: 700px) {
@@ -527,6 +624,7 @@ background-color: transparent;
 }
 .footer{
   background-color: white;
+  width: 100%;
 }
 .social-icons{
   font-size: 27px;
