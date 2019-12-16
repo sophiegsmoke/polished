@@ -34,7 +34,7 @@ nav a {
 /*close nav tags*/
 /*index tags*/
 body {
-  margin-right: -130px;
+
 }
 a {
   margin: 9px;
@@ -158,7 +158,7 @@ a:hover:hover {
 
 
 }
-h1 {
+.title {
   font-family: 'Ibarra Real Nova', serif;
   text-transform: uppercase;
   font-size: 50px;
@@ -381,12 +381,15 @@ background-color: transparent;
 }
 .dropdown-menu-nails p {
   font-family: 'McLaren', cursive;
-  font-size: 50%;
+  font-size: 100%;
   line-height: 20px;
   word-wrap: break-word;
   z-index: 9999999;
 
 
+}
+.dropdown-menu-nails h7 {
+  font-size: 140%;
 }
 .manicure-menu {
   z-index: 10;
@@ -433,7 +436,6 @@ background-color: transparent;
 /*end nails tags*/
 /*contact tags*/
 body {
-  margin: 0;
   background-color: #EFD6B6;
 }
 .contact-h1{
@@ -479,24 +481,7 @@ h5{
 .col-sm-4{
   position: relative;
 }
-  #footer{
-    font-size: 27px;
-    background-color: white;
-  }
-  .footer{
-    background-color: white;
-  }
-  .social-icons{
-    font-size: 27px;
-    background-color: white;
-  }
-  h3{
-    text-align: left;
-    font-family: 'Amatic SC', cursive;
-      color: #6C6250;
 
-    font-size: 60px;
-  }
 /*end contact tags*/
 /*man cave tags*/
 .man-body {
@@ -541,35 +526,7 @@ a:hover {
 a:hover:hover {
   text-decoration: underline;
 }
-footer{
-  background-color: white;
-}
-#footer{
-  font-size: 27px;
-  background-color: white;
-}
-.foot {
-  background-color: white;
-}
 
-#footer{
-  font-size: 27px;
-  background-color: white;
-}
-.footer{
-  background-color: white;
-}
-.social-icons{
-  font-size: 27px;
-  background-color: white;
-}
-h3{
-  text-align: left;
-  font-family: 'Amatic SC', cursive;
-    color: #6C6250;
-
-  font-size: 60px;
-}
 /*end man cave tags*/
 /*hair tags*/
 .hairprices{
@@ -577,7 +534,7 @@ h3{
   color: #6C6250;
 }
 /*styles the content to the same color and font*/
-h1{
+.subheading{
   font-size: 55px;
   font-family: 'Cookie', cursive;
 }
