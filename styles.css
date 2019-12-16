@@ -465,10 +465,12 @@ h3{
 
   font-size: 60px;
 }
-h4{
+.contact-h4{
   color: #6C6250;
   font-family: 'Solway', serif;
   text-align: center;
+  font-size: 25px;
+  line-height: 35px;
 }
 h5{
   text-align: center;
@@ -503,12 +505,6 @@ h5{
   margin: 0;
   background-color: #DFDEDB;
 }
-h3{
-  text-align: left;
-  font-family: 'Amatic SC', cursive;
-  color: #6C6250;
-  font-size: 45px;
-}
 h4{
   color: #6C6250;
   font-family: 'Shadows Into Light', cursive;
@@ -542,6 +538,17 @@ a:hover:hover {
   text-decoration: underline;
 }
 
+#footer{
+  font-size: 27px;
+  background-color: white;
+}
+.footer{
+  background-color: white;
+}
+.social-icons{
+  font-size: 27px;
+  background-color: white;
+}
 /*end man cave tags*/
 /*hair tags*/
 .hairprices{
@@ -549,7 +556,11 @@ a:hover:hover {
   color: #6C6250;
 }
 /*styles the content to the same color and font*/
+
+h1{
+
 .subheading{
+
   font-size: 55px;
   font-family: 'Cookie', cursive;
 }
