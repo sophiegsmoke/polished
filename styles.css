@@ -18,7 +18,7 @@ nav {
   font-size: 2.1em;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
-  position: absolute;
+  position: relative;
 }
 .navbar-nav {
   font-family: 'Amatic SC', cursive;
@@ -27,9 +27,11 @@ nav {
   font-size: 2.1em;
   z-index: 6;
 }
-nav a {
+.navbar-nav a{
   position: relative;
-  z-index: 6;
+  background-color: white;
+  z-index: 5;
+  text-align: center;
 }
 /*close nav tags*/
 /*index tags*/
@@ -90,10 +92,10 @@ img {
 .dropdown-menu {
   display: none;
   position: absolute;
-  width: 500px;
-  height: 600%;
+  width: 300px;
+  height: 120%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
-  z-index: 9999999;
+  z-index: 7;
   flex: initial;
   margin-top: -15px;
   padding-top: 2px;
@@ -110,6 +112,9 @@ img {
   overflow: inherit;
   float: right;
 }
+#footer {
+  z-index: -2;
+}
 .carousel-inner {
 width: 130%;
 margin: 0 -200px;
@@ -118,7 +123,15 @@ margin-right: -100px;
 position: relative;
 
 }
+.carousel-control-next {
+  margin-top: 100px;
+  margin-bottom: 140px;
 
+}
+.carousel-control-prev {
+  margin-top: 100px;
+  margin-bottom: 140px;
+}
 
 .dropdown-menu a {
   color: black;
@@ -277,7 +290,7 @@ z-index: -2;
   top: 0; /* Stay at the top */
   left: 0;
   background-color: #111; /* Black */
-  overflow-x: visible; /* Disable horizontal scroll */
+  overflow-x: visible; /* Disable horizontal scroll*/
   padding-top: 100px;
   color: black;
   background-color: #F1DFED;
@@ -290,16 +303,14 @@ z-index: -2;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
-  display: block;
+  position: fixed;
 }
 .sidenav li {
   font-family: 'McLaren', cursive;
-  position: sticky;
 }
 .sidenav h2 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 40px;
-  position: sticky;
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -373,11 +384,13 @@ background-color: transparent;
   flex: auto;
   font-size: 15px;
   line-height: 80%;
+  text-align: center;
 }
 .dropdown-menu-nails h7 {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 70%;
   z-index: 100;
+  text-align: center;
 }
 .dropdown-menu-nails p {
   font-family: 'McLaren', cursive;
@@ -416,6 +429,7 @@ background-color: transparent;
   display: block;
   z-index: 50!important;
   position: relative;
+  text-align: center;
 }
 .container-nails {
   position: absolute;
@@ -426,6 +440,7 @@ background-color: transparent;
   margin-top: 85px;
   width: 550px;
   margin-left: 22%;
+  text-align: center;
 }
 
 /* Show the dropdown menu on hover */
@@ -571,6 +586,14 @@ h10 {
 }
 /*end review tags*/
 /*media tags*/
+@media (max-width: 990px) {
+  .navbar a{
+      border-style: solid;
+  }
+  .nabar-brand {
+    display: none;
+  }
+}
 @media (max-width: 900px) {
   .container-nails {
     width: 450px;
@@ -688,16 +711,20 @@ h10 {
   height: 100px;
   width: 90px;
 }
+.col-sm-4 {
 
+}
 #footer{
   font-size: 27px;
   background-color: white;
   position: absolute;
+  z-index: -2;
 
 }
 .footer{
   background-color: white;
   width: 100%;
+
 }
 .social-icons{
   font-size: 27px;
